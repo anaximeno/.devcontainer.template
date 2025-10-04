@@ -1,6 +1,6 @@
 # Devcontainer Template
 
-Generic devcontainer template for use projects.
+Generic devcontainer template for use on projects.
 
 Initially based of: https://github.com/devcontainers/templates/tree/main/src/php-mariadb
 
