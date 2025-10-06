@@ -8,7 +8,7 @@
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
-	// Forward the ports you think are necessary here
+	// TODO: Forward the ports you think are necessary here
 	"forwardPorts": [8000, 3306]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
