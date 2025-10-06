@@ -18,17 +18,14 @@ services:
     # Use "forwardPorts" in **devcontainer.json** to forward an app port locally.
 
   db:
-    image: mariadb:10.4
+    image: postgres:latest
     restart: unless-stopped
     volumes:
-      - mariadb-data:/var/lib/mysql
+      - postgresql-data:/var/lib/postgresql/data
     environment:
-      MYSQL_ROOT_PASSWORD: mariadb
-      MYSQL_DATABASE: mariadb
-      MYSQL_USER: mariadb
-      MYSQL_PASSWORD: mariadb
-
-    # Add "forwardPorts": ["3306"] to **devcontainer.json** to forward MariaDB locally.
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
 
 volumes:
-  mariadb-data:
+  postgresql-data:
