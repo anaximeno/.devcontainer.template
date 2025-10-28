@@ -9,7 +9,7 @@
 	// "features": {},
 
 	// TODO: Forward the ports you think are necessary here
-	"forwardPorts": [8000, 3306]
+	"forwardPorts": [52148, 8000]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
